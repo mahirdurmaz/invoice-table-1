@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/7d84a4b7ac.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Invoice Table</title>
+</head>
+
+<body>
+    <table class="invoice-table">
+        <thead>
+            <tr>
+                <td>Ürün Kodu</td>
+                <td>Ürün Adı</td>
+                <td>Miktar</td>
+                <td>Birim Fiyat</td>
+                <td>Ara Toplam</td>
+                <td width="50"></td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>154654</td>
+                <td width="250">Notebook</td>
+                <td>1</td>
+                <td>5.400 <i class="fa-solid fa-turkish-lira-sign"></i></td>
+                <td>5.400 <i class="fa-solid fa-turkish-lira-sign"></i></td>
+                <td>
+                    <a href="#">
+                        <i class="fa-solid fa-pen-to-square"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-solid fa-trash"></i>
+                    </a>
+                </td>
+            </tr>
+
+            <tr>
+                <td>456466</td>
+                <td>Klavye</td>
+                <td>2</td>
+                <td>80 <i class="fa-solid fa-turkish-lira-sign"></i>
+                <td>160 <i class="fa-solid fa-turkish-lira-sign"></i></td>
+                <td>
+                    <a href="#">
+                        <i class="fa-solid fa-pen-to-square"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-solid fa-trash"></i>
+                    </a>
+                </td>
+            </tr>
+
+            <tr>
+                <td>564646</td>
+                <td>Monitör</td>
+                <td>1</td>
+                <td>700 <i class="fa-solid fa-turkish-lira-sign"></i></td>
+                <td>700 <i class="fa-solid fa-turkish-lira-sign"></i></td>
+                <td>
+                    <a href="#">
+                        <i class="fa-solid fa-pen-to-square"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-solid fa-trash"></i>
+                    </a>
+                </td>
+            </tr>
+
+            <tr>
+                <td>123598</td>
+                <td>Mouse</td>
+                <td>2</td>
+                <td>50 <i class="fa-solid fa-turkish-lira-sign"></i></td>
+                <td>100 <i class="fa-solid fa-turkish-lira-sign"></i></td>
+                <td>
+                    <a href="#">
+                        <i class="fa-solid fa-pen-to-square"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-solid fa-trash"></i>
+                    </a>
+                </td>
+            </tr>
+
+            <tr>
+                <td>613448</td>
+                <td>Playstation</td>
+                <td>1</td>
+                <td>2.500 <i class="fa-solid fa-turkish-lira-sign"></i></td>
+                <td>2.500 <i class="fa-solid fa-turkish-lira-sign"></i></td>
+                <td>
+                    <a href="#">
+                        <i class="fa-solid fa-pen-to-square"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-solid fa-trash"></i>
+                    </a>
+                </td>
+            </tr>
+
+            <tr>
+                <td>789799</td>
+                <td>Usb Bellek</td>
+                <td>3</td>
+                <td>120 <i class="fa-solid fa-turkish-lira-sign"></i></td>
+                <td>360 <i class="fa-solid fa-turkish-lira-sign"></i></td>
+                <td>
+                    <a href="#">
+                        <i class="fa-solid fa-pen-to-square"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-solid fa-trash"></i>
+                    </a>
+                </td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td colspan="4" align="right">TOPLAM</td>
+            <td align="right">9.200 <i class="fa-solid fa-turkish-lira-sign"></i></td>
+            <td></td>
+        </tfoot>
+
+    </table>
+
+    <div class="buttons">
+        <a href="#" class="con-btn btn"><i class="fa-solid fa-cart-shopping"></i>Alışverişe Devam</a>
+        <a href="#" class="pay-btn btn"><i class="fa-solid fa-credit-card"></i>Ödemeye Geç</a>
+    </div>
+</body>
+
+</html>
