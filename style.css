@@ -5,11 +5,12 @@ body {
 a {
   color: black;
   text-decoration: none;
+  border-radius: 10px;
 }
 
 .invoice-table {
   border-collapse: collapse;
-  background-color: rgb(232, 232, 232);
+  /* background-color: rgb(232, 232, 232); */
   margin: 2rem auto;
   margin-bottom: 1rem !important;
 }
@@ -22,6 +23,10 @@ table :is(thead, tfoot) {
 
 table tbody tr:nth-child(odd) {
   background-color: rgb(206, 206, 206);
+}
+
+table tbody tr:nth-child(even) {
+  background-color: rgb(240, 240, 240);
 }
 
 table tbody tr td:nth-child(4),
@@ -65,4 +70,17 @@ td {
 .buttons {
   gap: 1.1rem;
   margin-left: 51.45vw;
+}
+
+.top-left {
+  border-top-left-radius: 15px;
+}
+.top-right {
+  border-top-right-radius: 15px;
+}
+.bottom-left {
+  border-bottom-left-radius: 15px;
+}
+.bottom-right {
+  border-bottom-right-radius: 15px;
 }
